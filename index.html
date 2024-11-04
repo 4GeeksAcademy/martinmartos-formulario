@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+        <form>
+            <div class="card text center d-flex">
+              <div class="header me-3 p-2 ms-2" >
+                <div class="alert alert-secondary" role="alert">
+                 <h4>Payment for example</h4>
+                </div>
+              </div>  
+              <div class="body ms-2 me-3 p-1 mt">
+                <div class="alert alert-danger" role="alert">
+                  Some fields are missing
+                </div>
+                <div class="row">
+                  <div class="col-5">
+                    <label for="exampleFormControlInput1" class="form-label">Card #</label>
+                     <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="XXXXXXXXXXXX">
+                  </div>
+                  <div class="col-3" >
+                    <label for="exampleFormControlInput1" class="form-label">CVC #</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="0000">
+                  </div>
+                  <div class="col-4">
+                    <label for="exampleFormControlInput1" class="form-label">Amount</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Amount">
+                  </div>
+                </div>
+                <div class="row mt-4">
+                  <div class="col-6">
+                    <label for="exampleFormControlInput1" class="form-label">First Name</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+                  </div>
+                  <div class="col-6">
+                    <label for="exampleFormControlInput1" class="form-label">Last Name</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+                  </div>
+                  <div class="row p-3 mt-3">
+                    <div class="col-6">
+                        <label for="exampleFormControlInput1" class="form-label">City</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+                    </div>
+                    <div class="col-3">
+                      <label for="inputState" class="form-label">State</label>
+                      <select id="inputState" class="form-select">
+                        <option selected>Pick a state</option>
+                        <option>...</option>
+                      </select>
+                    </div>
+                    <div class="col-3" >
+                        <label for="exampleFormControlInput1" class="form-label">Postal Code</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+                    </div>
+                  </div>
+                 <div class="row p-3 mt-3">
+                   <div class="col-6">
+                     <p>We accept</p>
+                     <button type="button" class="btn btn-secondary btn-sm">
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                        <label class="form-check-label" for="inlineRadio1"> <i class=" input group fab fa-cc-mastercard fa-lg "></i></label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                        <label class="form-check-label" for="inlineRadio1"><i class="fab fa-cc-visa fa-lg"></i></label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                        <label class="form-check-label" for="inlineRadio1"><i class="fab fa-cc-diners-club fa-lg"></i></label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                        <label class="form-check-label" for="inlineRadio1"><i class="fab fa-cc-amex fa-lg"></i></label>
+                      </div>
+                     </button>
+                   </div>
+                   <div class="col-6">
+                    <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    <p class="small text-secondary">Add any notes here.</p>
+                   </div>
+                 </div>
+                </div>
+              <div class="footer text-sm-end mt-4 me-2 mb-2 p-2">
+                <div class="alert alert-light" role="alert">
+                  <button type="button" class="btn btn-secondary">Cancel</button>
+                  <button type="button" class="btn btn-primary">Send</button>
+                </div>
+              </div>
+            </div>
+         </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
